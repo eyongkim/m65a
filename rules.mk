@@ -1,0 +1,5 @@
+# rules.mk
+# @2018.05.30
+
+BOOTMAGIC_ENABLE = no
+RGBLIGHT_ENABLE = yes
