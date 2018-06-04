@@ -2,10 +2,14 @@
 RAMA M65-A keymaps
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 825f33a... Update README.md
 split right shift
 
 - ansi: ANSI style layout
 - hhkb: HHKB style layout
+<<<<<<< HEAD
   - split backspace
   - backspace key is located above the enter key
   - control key is located at the caps lock
@@ -14,3 +18,9 @@ split right shift
 - ansi: ANSI style layout (2u backspace at row 1, caps lock at row 3)
 - unix: UNIX style layout (1.5u backspace at row 2, caps lock and control swapped)
 >>>>>>> dbc33ab... Update README.md
+=======
+  . split backspace
+  . backspace key is located above the enter key
+  . control key is located at the caps lock
+  . alt and meta keys are located at both sides of the spacebar
+>>>>>>> 825f33a... Update README.md
