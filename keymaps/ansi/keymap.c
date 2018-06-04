@@ -68,10 +68,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] =
     [_FL] = LAYOUT
     (
         TG(_CL),KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,  KC_F7,  KC_F8,  KC_F9,  KC_F10, KC_F11, KC_F12, ____,   ____,   KC_INS,
-        ____,   ____,   KC_WAKE,____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,           ____,   KC_HOME,
-        ____,   ____,   KC_SLEP,____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,                   ____,   KC_END,
+        ____,           ____,   KC_WAKE,____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   KC_HOME,
+        ____,           ____,   KC_SLEP,____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,           KC_END,
         ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,   ____,           ____,   KC_VOLU,____,
-        ____,   ____,   ____,           ____,           ____,           ____,           ____,   ____,   ____,   KC_WBAK,KC_VOLD,KC_WFWD
+        ____,   ____,           ____,   ____,           ____,           ____,           ____,   ____,   ____,   KC_WBAK,KC_VOLD,KC_WFWD
     ),
 
     // Control Layer
@@ -90,9 +90,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] =
     [_CL] = LAYOUT
     (
         TO(_BL),XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   RESET,
-        XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,           XXXX,   XXXX,
-        XXXX,   XXXX,   RGB_SAI,XXXX,   RGB_VAI,XXXX,   RGB_HUI,XXXX,   XXXX,   XXXX,   XXXX,   XXXX,                   XXXX,   XXXX,
+        XXXX,           XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,
+        XXXX,           XXXX,   RGB_SAI,XXXX,   RGB_VAI,XXXX,   RGB_HUI,XXXX,   XXXX,   XXXX,   XXXX,   XXXX,   XXXX,           XXXX,
         XXXX,   XXXX,   XXXX,   RGB_SAD,XXXX,   RGB_VAD,XXXX,   RGB_HUD,XXXX,   XXXX,   XXXX,   XXXX,           XXXX,   XXXX,   XXXX,
-        XXXX,   XXXX,   XXXX,           XXXX,           RGB_TOG,        XXXX,           XXXX,   XXXX,   XXXX,   RGB_RMOD,XXXX,  RGB_MOD
+        XXXX,   XXXX,           XXXX,   XXXX,           RGB_TOG,        XXXX,           XXXX,   XXXX,   XXXX,   RGB_RMOD,XXXX,  RGB_MOD
     )
 };
